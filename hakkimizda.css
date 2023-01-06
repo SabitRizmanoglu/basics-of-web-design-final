@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&display=swap');
+
+:root{
+    --main-color: #a6c8c9;
+    --black-color: #1c1a1a;
+    --border: 0.1rem solid rgba(255,255,255,0.4);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: 0.2s ease;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+.logo img {
+    height: 10rem;
+}
+
+/* header start */
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    font-family: Poppins;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color: #a6c8c9;
+    padding-bottom: 0.5rem;
+}
+
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+
+/* header end */
+
+/* hakkimizda start */
+ 
+#hakkimizda{
+    background-color: #a6c8c9;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+
+h3{
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #445c6e;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+    float: left;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#pson{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-weight: 100;
+    font-weight: bold;
+    color: black;
+    
+}
+/* hakkimizda end */
+
+/* footer start */
+footer{
+    padding: 50px 100px;
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+.dd{
+    margin-left: 150px;
+}
+footer h1{
+    color: #3a6cf4;
+    font-size: 3rem;
+}
+.sag{
+    float: right;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+footer h2 {
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-weight: 500;
+}
+/* footer end */
